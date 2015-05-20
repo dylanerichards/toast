@@ -12,7 +12,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'spring',        group: :development
 
-group :developmend do
+group :development do
   gem 'sqlite3'
 end
 
