@@ -78,6 +78,7 @@
   top: 55px;
   text-decoration: none;
   visibility: hidden;
+  color: black;
 }
 
 .close:visited {
