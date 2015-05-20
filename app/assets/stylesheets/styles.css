@@ -39,10 +39,10 @@
   transform: rotate(270deg);
   transform-origin: left bottom;
   position: relative;
-  top: 90px;
+  top: 60px;
   left: 50px;
-  font-family: "Arial";
-  font-size: 35px;
+  font-family: "Londrina Outline";
+  font-size: 45px;
   display: none;
 }
 
