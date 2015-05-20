@@ -11,6 +11,7 @@
   position: relative;
   top: 44px;
   left: 44px;
+  display: none;
   background: -moz-linear-gradient(-45deg,  rgba(182,156,202,1) 0%, rgba(59,27,5,0.62) 62%, rgba(59,27,5,0.4) 99%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(182,156,202,1)), color-stop(62%,rgba(59,27,5,0.62)), color-stop(99%,rgba(59,27,5,0.4))); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(-45deg,  rgba(182,156,202,1) 0%,rgba(59,27,5,0.62) 62%,rgba(59,27,5,0.4) 99%); /* Chrome10+,Safari5.1+ */
@@ -31,6 +32,7 @@
   font-family: "Oswald";
   font-weight: 300;
   text-align: center;
+  display: none;
 }
 
 .logo {
@@ -41,6 +43,7 @@
   left: 50px;
   font-family: "Arial";
   font-size: 35px;
+  display: none;
 }
 
 .product-image {
@@ -74,6 +77,7 @@
   left: 850px;
   top: 55px;
   text-decoration: none;
+  visibility: hidden;
 }
 
 .close:visited {
