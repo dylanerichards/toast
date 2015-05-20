@@ -86,3 +86,7 @@
 .share img {
   width: 3.5%;
 }
+
+.twitter_hidden, .facebook_hidden {
+  display: none;
+}

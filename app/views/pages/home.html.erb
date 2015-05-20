@@ -1,5 +1,5 @@
 <div class="box">
-    <%= link_to "CLOSE", "#", class: "close" %>
+  <%= link_to "CLOSE", "#", class: "close" %>
 
   <div class="left-panel">
     <div class="logo">
@@ -27,8 +27,13 @@
 
       <div class="share">
         SHARE
-        <%= image_tag "fb.png" %>
-        <%= image_tag "tweet.png" %>
+        <img src="fb.png" 
+             onmouseover="this.src='fb_hover.png';"
+             onmouseout="this.src='fb.png';">
+
+        <img src="tweet.png" 
+             onmouseover="this.src='tweet_hover.png';"
+             onmouseout="this.src='tweet.png';">
       </div>
     </div>
   </div>
