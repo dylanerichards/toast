@@ -6,20 +6,27 @@
 }
 
 .left-panel {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   position: relative;
   top: 44px;
   left: 44px;
-  background: cyan;
+  background: -moz-linear-gradient(-45deg,  rgba(182,156,202,1) 0%, rgba(59,27,5,0.62) 62%, rgba(59,27,5,0.4) 99%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(182,156,202,1)), color-stop(62%,rgba(59,27,5,0.62)), color-stop(99%,rgba(59,27,5,0.4))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  rgba(182,156,202,1) 0%,rgba(59,27,5,0.62) 62%,rgba(59,27,5,0.4) 99%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  rgba(182,156,202,1) 0%,rgba(59,27,5,0.62) 62%,rgba(59,27,5,0.4) 99%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  rgba(182,156,202,1) 0%,rgba(59,27,5,0.62) 62%,rgba(59,27,5,0.4) 99%); /* IE10+ */
+  background: linear-gradient(135deg,  rgba(182,156,202,1) 0%,rgba(59,27,5,0.62) 62%,rgba(59,27,5,0.4) 99%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b69cca', endColorstr='#663b1b05',GradientType=1  ); /* IE6-9 fallback on horizontal gradient */
+
 }
 
 .right-panel {
   width: 250px;
   height: 500px;
-  background: pink;
+  /* background: pink; */
   position: relative;
-  bottom: 425px;
+  bottom: 350px;
   left: 600px;
   font-family: "Oswald";
   font-weight: 300;
@@ -30,8 +37,10 @@
   transform: rotate(270deg);
   transform-origin: left bottom;
   position: relative;
-  top: 50px;
-  left: 30px;
+  top: 90px;
+  left: 50px;
+  font-family: "Arial";
+  font-size: 35px;
 }
 
 .product-image {
