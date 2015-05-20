@@ -10,6 +10,6 @@ $(document).ready(function() {
   }, 1000)
 
   setTimeout(function() {
-    $(".logo").show().addClass("animated fadeInLeft");
+    $(".logo").animate({ opacity: "show" });
   }, 1300)
 });
