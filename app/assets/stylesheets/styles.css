@@ -21,6 +21,9 @@
   position: relative;
   bottom: 455px;
   left: 600px;
+  font-family: "Oswald";
+  font-weight: 300;
+  text-align: center;
 }
 
 .logo {
@@ -33,4 +36,18 @@
 
 .product-image {
   max-height: 60%;
+}
+
+.description {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.buy-now {
+  text-decoration: none;
+  padding: 3px 65px;
+  border: 1px solid black;
+  color: #000;
 }
