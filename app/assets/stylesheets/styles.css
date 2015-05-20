@@ -6,12 +6,21 @@
 }
 
 .left-panel {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   position: relative;
   top: 44px;
   left: 44px;
   background: cyan;
+}
+
+.right-panel {
+  width: 250px;
+  height: 500px;
+  background: pink;
+  position: relative;
+  bottom: 455px;
+  left: 600px;
 }
 
 .logo {
@@ -20,4 +29,8 @@
   position: relative;
   top: 50px;
   left: 30px;
+}
+
+.product-image {
+  max-height: 60%;
 }
