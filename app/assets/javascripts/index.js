@@ -7,9 +7,9 @@ $(document).ready(function() {
     $(".left-panel").show().addClass("animated fadeInLeft");
     $(".close").css("visibility", "visible").addClass("animated fadeInRight");
 
-  }, 1000)
+  }, 1000);
 
   setTimeout(function() {
     $(".logo").animate({ opacity: "show" });
-  }, 1300)
+  }, 1300);
 });
